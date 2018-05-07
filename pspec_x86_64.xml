@@ -2,8 +2,8 @@
     <Source>
         <Name>hardcode-tray</Name>
         <Packager>
-            <Name>Devil505</Name>
-            <Email>devil505linux@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>BSD-3-Clause</License>
         <License>GPL-3.0-or-later</License>
@@ -59,12 +59,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-03-25</Date>
+        <Update release="2">
+            <Date>2018-05-07</Date>
             <Version>4.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Devil505</Name>
-            <Email>devil505linux@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>

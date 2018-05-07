@@ -1,6 +1,6 @@
 name       : hardcode-tray
 version    : 4.2
-release    : 1
+release    : 2
 source     :
     - https://github.com/bil-elmoussaoui/Hardcode-Tray/archive/v4.2.tar.gz : 58e1d246a2ead600ac82cf2d83c22dad1659f0da2be825cf54d779e18a23ccc1
 license    :
@@ -12,7 +12,7 @@ description: |
     The script will automatically detect your default theme, the correct icon size, the hard-coded applications, the correct icons for each indicator and fix them. All that with the possibility to revert to the original icons.
 builddeps  :
     - pkgconfig(gtk+-3.0)
-rundeps  :
+rundeps    :
     - imagemagick
     - python3-gobject
     - gobject-introspection
@@ -21,6 +21,6 @@ rundeps  :
 setup      : |
     %meson_configure
 build      : |
-    %meson_build
+    %ninja_build
 install    : |
-    %meson_install
+    %ninja_install
