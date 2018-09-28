@@ -1,6 +1,6 @@
 name       : hardcode-tray
 version    : 4.2
-release    : 2
+release    : 3
 source     :
     - https://github.com/bil-elmoussaoui/Hardcode-Tray/archive/v4.2.tar.gz : 58e1d246a2ead600ac82cf2d83c22dad1659f0da2be825cf54d779e18a23ccc1
 license    :

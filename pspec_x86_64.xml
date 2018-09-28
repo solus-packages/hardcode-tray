@@ -20,7 +20,7 @@
 </Description>
         <PartOf>desktop.theme</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/hardcode-tray</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/HardcodeTray/app.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/HardcodeTray/const.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/HardcodeTray/decorators.py</Path>
@@ -53,14 +53,122 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/HardcodeTray/path.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/HardcodeTray/tools.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/HardcodeTray/utils.py</Path>
-            <Path fileType="data">/usr/share/hardcode-tray</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/anatine.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/bitcoin.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/calendar-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/caprine.electron.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/caprine.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/catch-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/china-weather.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/chromium.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/cisco-anyconnect.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/clementine.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/cryptfolder-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/discord-canary.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/discord.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/disper-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/dropbox.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/flareget.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/franz.electron.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/franz.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/gajim.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/ghetto_skype.electron.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/ghetto_skype.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/gitter.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/google-chrome.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/google-music-manager.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/google-tasks-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/gpmdp.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/grive-tools.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/guake.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/hangouts.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/harmony.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/hexchat.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/hp-printing.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/hp-printing.qt.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/ibus-anthy.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/ibus-mozc.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/indicator-weather.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/insync.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/jdownloader.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/keepass.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/keepassx.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/liferea.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/lyricfier.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/mailspring.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/megasync.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/messenger.electron.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/messengerfordesktop.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/mintupdate.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/mullvad.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/mumble.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/museeq.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/my-weather-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/nomachine.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/nylas.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/overgrive.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/owncloud.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/pb-for-desktop.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/pomodoneapp.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/pomodoro-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/popcorntime.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/prime-indicator-plus.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/primeindicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/protonmail.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/pushbullet-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/qelectrotech.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/radiotray.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/rambox.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/ramme.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/record-desktop.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/rescuetime.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/rhythmbox.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/rocketchat.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/screencloud.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/seafile.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/sflphone.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/skype.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/skypeforlinux.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/slack.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/solaar.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/spotify.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/spotifywebplayer.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/steam.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/stremio.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/synergy.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/teamviewer.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/telegram.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/tomahawk.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/touchpad-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/trimage.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/tusk.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/twitch-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/variety.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/vivaldi.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/webtorrent-desktop.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/wechat.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/whatsapp.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/whatsie.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/wire.electron.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/wire.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/wiznote.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/workrave.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/xkbmod-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/yakyak.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/yd-tools.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/youtube-indicator.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/database/yum-extender-dnf.json</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/license/BSD</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/license/GPL</Path>
+            <Path fileType="data">/usr/share/hardcode-tray/license/README.md</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/hardcode-tray.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/hardcode-tray.mo</Path>
+            <Path fileType="man">/usr/share/man/man1/hardcode-tray.1.gz</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-05-07</Date>
+        <Update release="3">
+            <Date>2018-09-28</Date>
             <Version>4.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>
